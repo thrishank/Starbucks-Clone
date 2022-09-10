@@ -29,6 +29,9 @@ body {
 .navbar-left {
     display: flex;
     align-items: center;
+    text-align: right;
+    position: relative;
+    left: 100px;
 }
 .navbar-left > * {
     margin: 20px;
@@ -38,8 +41,8 @@ body {
     text-align: left;
     vertical-align: middle;
     align-items: center;
-    position: fixed;
-    right: 235px;
+    position: fixed; 
+    right: 200px; 
 }
 .navbar-right > * {
     margin: 20px;
@@ -58,4 +61,30 @@ body {
 .join {
     background-color: black;
     color: white;
+}
+.product img{
+    max-width: 100%;
+}
+.product {
+    display: flex; 
+}
+.product-button{
+    display: flex;
+    justify-content: center;
+    border: 1px solid ;
+    padding: 5px 20px 5px 5px;
+    border-radius: 20px;
+}
+.product-left , 
+.product-right {
+    max-width: 50%;
+}
+.product-text {
+    text-align: center;
+    color: #1E3932;
+    width: 100%;
+}
+.product-abc {
+    text-align: center;
+    color: #1E3932;
 }
